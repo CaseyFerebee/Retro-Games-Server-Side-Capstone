@@ -1,0 +1,37 @@
+[
+    {
+        "model": "retroapi.condition",
+        "pk": 1,
+        "fields": {
+            "label": "Sealed"
+        }
+    },
+    {
+        "model": "retroapi.condition",
+        "pk": 2,
+        "fields": {
+            "label": "Excellent"
+        }
+    },
+    {
+        "model": "retroapi.condition",
+        "pk": 3,
+        "fields": {
+            "label": "Great"
+        }
+    },
+    {
+        "model": "retroapi.condition",
+        "pk": 4,
+        "fields": {
+            "label": "Good"
+        }
+    },
+    {
+        "model": "retroapi.condition",
+        "pk": 5,
+        "fields": {
+            "label": "Poor"
+        }
+    }
+]
