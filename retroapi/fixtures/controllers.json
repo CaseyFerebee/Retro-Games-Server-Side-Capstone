@@ -6,6 +6,7 @@
             "name": "Nintendo N64 Controller Original Grey",
             "releaseDate": "1996-09-26",
             "description": "The original controller for the Nintendo 64 console.",
+            "img": "https://i.imgur.com/xGFVzvI.jpg",
             "condition": 1
         }
     },
@@ -16,6 +17,7 @@
             "name": "Nintendo N64 Controller Atomic Purple",
             "releaseDate": "2000-05-01",
             "description": "This color resembled the gameboy color variation",
+            "img": "https://i.imgur.com/AXXf05x.jpg",
             "condition": 1
         }
     },
@@ -26,16 +28,7 @@
             "name": "Nintendo N64 Controller Ice Blue",
             "releaseDate": "2000-8-23",
             "description": "This controller was a part of funstastic series.",
-            "condition": 1
-        }
-    },
-    {
-        "model": "retroapi.controller",
-        "pk": 4,
-        "fields": {
-            "name": "Nintendo N64 Controller Jungle Green",
-            "releaseDate": "2000-11-8",
-            "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/GQGTnXw.jpg",
             "condition": 1
         }
     },
@@ -46,6 +39,7 @@
             "name": "Nintendo N64 Controller Clear/Smoke Gray",
             "releaseDate": "2000-11-13",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/fDCBn0R.jpg",
             "condition": 1
         }
     },
@@ -56,6 +50,7 @@
             "name": "Nintendo N64 Controller Fire Orange",
             "releaseDate": "2000-10-14",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/j3DEHF2.jpg",
             "condition": 1
         }
     },
@@ -66,6 +61,7 @@
             "name": "Nintendo N64 Controller Watermelon Red",
             "releaseDate": "2000-11-19",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/Ji2NLqi.jpg",
             "condition": 1
         }
     },
@@ -76,6 +72,7 @@
             "name": "Nintendo N64 Controller Daiei Hawk Fire Orange & Black",
             "releaseDate": "2000-11-13",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/6hcCYbO.jpg",
             "condition": 1
         }
     },
@@ -86,6 +83,7 @@
             "name": "Nintendo N64 Controller Extreme Green",
             "releaseDate": "2000-8-9",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/qoaA4tb.jpg",
             "condition": 1
         }
     },
@@ -96,6 +94,7 @@
             "name": "Nintendo N64 Controller Watermelon Red & Clear White",
             "releaseDate": "2000-3-27",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/8AIOcmU.jpg",
             "condition": 1
         }
     },
@@ -106,6 +105,7 @@
             "name": "Nintendo N64 Controller Funtastic Grape Purple",
             "releaseDate": "2000-10-19",
             "description": "This controller was a part of funstastic series.",
+            "img": "https://i.imgur.com/ki4znWm.jpg",
             "condition": 1
         }
     },
@@ -116,6 +116,7 @@
             "name": "Nintendo N64 Controller Original Blue",
             "releaseDate": "1998-7-11",
             "description": "A solid blue controller",
+            "img": "https://i.imgur.com/7pz5LMA.jpg",
             "condition": 1
         }
     },
@@ -126,6 +127,7 @@
             "name": "Nintendo N64 Controller Yellow",
             "releaseDate": "1997-12-15",
             "description": "A solid yellow controller. This controller came out as a bundle with the DK console, then later was sold separately",
+            "img": "https://i.imgur.com/sTKIiJo.jpg",
             "condition": 1
         }
     },
@@ -136,6 +138,7 @@
             "name": "Nintendo N64 Controller Piachu Blue & Yellow",
             "releaseDate": "2000-2-15",
             "description": "This controller came with the Pikachu console bundle.",
+            "img": "https://i.imgur.com/oRoLzI1.jpg",
             "condition": 1
         }
     },
@@ -146,6 +149,7 @@
             "name": "Nintendo N64 Controller Pikachu Orange & Yellow",
             "releaseDate": "2000-5-17",
             "description": "This controller came with the pikachu console bundle.That came out only in japan",
+            "img": "https://i.imgur.com/yNykd1G.jpg",
             "condition": 1
         }
     },
@@ -156,6 +160,7 @@
             "name": "Nintendo N64 Controller  Pikachu light-Blue & Yellow",
             "releaseDate": "1999-4-12",
             "description": "This controller came with the pikachu console bundle.That came out only in japan",
+            "img": "https://i.imgur.com/tgWMEwJ.jpg",
             "condition": 1
         }
     },
@@ -166,6 +171,7 @@
             "name": "Nintendo N64 Controller Original Red",
             "releaseDate": "1999-4-12",
             "description": "A solid Red controller",
+            "img": "https://i.imgur.com/JbSEnBW.jpg",
             "condition": 1
         }
     },
@@ -176,6 +182,7 @@
             "name": "Nintendo N64 Controller Black",
             "releaseDate": "1999-4-12",
             "description": "A solid black controller",
+            "img": "https://i.imgur.com/FgpwjnY.jpg",
             "condition": 1
         }
     },
@@ -183,9 +190,10 @@
         "model": "retroapi.controller",
         "pk": 19,
         "fields": {
-            "name": "Nintendo N64 Controller  Green",
+            "name": "Nintendo N64 Controller Green",
             "releaseDate": "1999-4-12",
             "description": "A solid green controller",
+            "img": "https://i.imgur.com/UamKGyA.jpg",
             "condition": 1
         }
     },
@@ -196,6 +204,7 @@
             "name": "Nintendo N64 Controller Gold",
             "releaseDate": "1999-4-12",
             "description": "A solid Gold controller",
+            "img": "https://i.imgur.com/4NvbFxz.jpg",
             "condition": 1
         }
     }
