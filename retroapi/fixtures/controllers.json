@@ -1,0 +1,202 @@
+[
+    {
+        "model": "retroapi.controller",
+        "pk": 1,
+        "fields": {
+            "name": "Nintendo N64 Controller Original Grey",
+            "releaseDate": "1996-09-26",
+            "description": "The original controller for the Nintendo 64 console.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 2,
+        "fields": {
+            "name": "Nintendo N64 Controller Atomic Purple",
+            "releaseDate": "2000-05-01",
+            "description": "This color resembled the gameboy color variation",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 3,
+        "fields": {
+            "name": "Nintendo N64 Controller Ice Blue",
+            "releaseDate": "2000-8-23",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 4,
+        "fields": {
+            "name": "Nintendo N64 Controller Jungle Green",
+            "releaseDate": "2000-11-8",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 5,
+        "fields": {
+            "name": "Nintendo N64 Controller Clear/Smoke Gray",
+            "releaseDate": "2000-11-13",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 6,
+        "fields": {
+            "name": "Nintendo N64 Controller Fire Orange",
+            "releaseDate": "2000-10-14",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 7,
+        "fields": {
+            "name": "Nintendo N64 Controller Watermelon Red",
+            "releaseDate": "2000-11-19",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 8,
+        "fields": {
+            "name": "Nintendo N64 Controller Daiei Hawk Fire Orange & Black",
+            "releaseDate": "2000-11-13",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 9,
+        "fields": {
+            "name": "Nintendo N64 Controller Extreme Green",
+            "releaseDate": "2000-8-9",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 10,
+        "fields": {
+            "name": "Nintendo N64 Controller Watermelon Red & Clear White",
+            "releaseDate": "2000-3-27",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 11,
+        "fields": {
+            "name": "Nintendo N64 Controller Funtastic Grape Purple",
+            "releaseDate": "2000-10-19",
+            "description": "This controller was a part of funstastic series.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 12,
+        "fields": {
+            "name": "Nintendo N64 Controller Original Blue",
+            "releaseDate": "1998-7-11",
+            "description": "A solid blue controller",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 13,
+        "fields": {
+            "name": "Nintendo N64 Controller Yellow",
+            "releaseDate": "1997-12-15",
+            "description": "A solid yellow controller. This controller came out as a bundle with the DK console, then later was sold separately",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 14,
+        "fields": {
+            "name": "Nintendo N64 Controller Piachu Blue & Yellow",
+            "releaseDate": "2000-2-15",
+            "description": "This controller came with the Pikachu console bundle.",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 15,
+        "fields": {
+            "name": "Nintendo N64 Controller Pikachu Orange & Yellow",
+            "releaseDate": "2000-5-17",
+            "description": "This controller came with the pikachu console bundle.That came out only in japan",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 16,
+        "fields": {
+            "name": "Nintendo N64 Controller  Pikachu light-Blue & Yellow",
+            "releaseDate": "1999-4-12",
+            "description": "This controller came with the pikachu console bundle.That came out only in japan",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 17,
+        "fields": {
+            "name": "Nintendo N64 Controller Original Red",
+            "releaseDate": "1999-4-12",
+            "description": "A solid Red controller",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 18,
+        "fields": {
+            "name": "Nintendo N64 Controller Black",
+            "releaseDate": "1999-4-12",
+            "description": "A solid black controller",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 19,
+        "fields": {
+            "name": "Nintendo N64 Controller  Green",
+            "releaseDate": "1999-4-12",
+            "description": "A solid green controller",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.controller",
+        "pk": 20,
+        "fields": {
+            "name": "Nintendo N64 Controller Gold",
+            "releaseDate": "1999-4-12",
+            "description": "A solid Gold controller",
+            "condition": 1
+        }
+    }
+]
