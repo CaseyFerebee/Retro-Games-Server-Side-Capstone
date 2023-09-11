@@ -6,3 +6,7 @@ class Owner(models.Model):
     games = models.ManyToManyField('Game')
     consoles = models.ManyToManyField('Console')
     controllers = models.ManyToManyField('Controller')
+
+    @property
+    def full_name(self):
+        return f'{self.user.first_name} {self.user.last_name}'
