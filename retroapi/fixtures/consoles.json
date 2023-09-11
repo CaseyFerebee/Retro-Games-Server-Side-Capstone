@@ -1,0 +1,211 @@
+[
+    {
+        "model": "retroapi.console",
+        "pk": 1,
+        "fields": {
+            "name": "Nintendo 64 Standard Charcoal Console.",
+            "releaseDate": "1996-09-26",
+            "description": "The N64 Charcoal was the original release version",
+            "img": "https://i.imgur.com/bSZboUw.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 2,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Jungle Green Console",
+            "releaseDate": "2000-10-05",
+            "description": "The Jungle Green is part of the Funtastic Series containing 6 consoles",
+            "img": "https://i.imgur.com/mSlOUTs.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 3,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Ice Blue Console",
+            "releaseDate": "2000-08-01",
+            "description": "The Ice Blue is also part of the Funtastic Series containing 6 consoles",
+            "img": "https://i.imgur.com/cb20Xnw.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 4,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Grape Purple Console",
+            "releaseDate": "2000-11-14",
+            "description": "The Grape Purple is also part of the Funtastic Series containing 6 consoles.",
+            "img": "https://i.imgur.com/hpRVA63.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 5,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Fire Orange Console",
+            "releaseDate": "2000-11-14",
+            "description": "The Fire Orange is also part of the Funtastic Series containing 6 consoles",
+            "img": "https://i.imgur.com/VBOtsuk.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 6,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Smoke / Clear Black Console",
+            "releaseDate": "2000-06-01",
+            "description": "The Smoke Black is also part of the Funtastic Series containing 6 consoles",
+            "img": "https://i.imgur.com/CvPfnaP.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 7,
+        "fields": {
+            "name": "Nintendo 64 Funtastic Watermelon Red Console",
+            "releaseDate": "2000-09-30",
+            "description": "The Watermelon Red is also part of the Funtastic Series containing 6 consoles",
+            "img": "https://i.imgur.com/YRaM0U3.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 8,
+        "fields": {
+            "name": "Nintendo 64 Clear White / Blue Console",
+            "releaseDate": "2000-06-06",
+            "description": "The top has the same colored design as the Ice Blue console and the bottom part was solid white",
+            "img": "https://i.imgur.com/RybWgZ9.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 9,
+        "fields": {
+            "name": "Nintendo 64 Clear White / Red Console",
+            "releaseDate": "1998-12-18",
+            "description": "The top has the same color design as the Watermelon Red console and the bottom part was solid white ",
+            "img": "https://i.imgur.com/v5I459O.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 10,
+        "fields": {
+            "name": "Nintendo 64 Pikachu Dark Blue Console",
+            "releaseDate": "2000-11-22",
+            "description": "This is the American verison. Pikachu's left foot serves as a reset button, the power switch is a PokBall and the cheeks light up red when the console is running.The American Version is rarer and also came as a bundle",
+            "img": "https://i.imgur.com/9MLbu4a.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 11,
+        "fields": {
+            "name": "Nintendo 64 Pikachu Light Blue Console",
+            "releaseDate": "1999-07-30",
+            "description": "This Japanese exclusive.The blue of this N64 is actually lighter color, therefore it is a different console variation.",
+            "img": "https://i.imgur.com/FzqRQxP.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 12,
+        "fields": {
+            "name": "Nintendo 64 Pikachu Orange Console",
+            "releaseDate": "1999-09-30",
+            "description": "This Japanese exclusive.The orange N64 is rarer than the light blue, but only slightly.",
+            "img": "https://i.imgur.com/vgXzUsZ.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 13,
+        "fields": {
+            "name": "Nintendo 64 Battle Set Console",
+            "releaseDate": "1999-07-11",
+            "description": "The Pokemon Battle Set falls out of line from the Pokemon consoles so far. It has no additional functionalities, therefore a unique graphic design on the console",
+            "img": "https://i.imgur.com/p181VN8.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 14,
+        "fields": {
+            "name": "Nintendo 64 Gold Console",
+            "releaseDate": "2000-04-20",
+            "description": "This console was a Toys R Us Exclusive.The North American version also came with 2 golden controllers.Was never released in Europe, although UK got a charcoal N64 with a gold controller.Sometimes also referred to as the Zelda N64 for no real reason",
+            "img": "https://i.imgur.com/hekBsk9.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 15,
+        "fields": {
+            "name": "Nintendo 64 Daiei Hawks Console",
+            "releaseDate": "1999-02-23",
+            "description": "Console released in Japan only.This amazing looking N64 also inspired the Gameboy Color and the Game Boy Advance to have the same color design released. It was only available in the Daiei store in Japan and its real name is simply N64 Daiei.Often called the Daiei Hawks referring to a Japanese baseball team this beauty was actually a store exclusive and had nothing to do with the sport. The confusion likely happened because the Daiei Store was also a sponsor of the baseball team at the time.The orange and black color is actually different from any other N64 console",
+            "img": "https://i.imgur.com/jv9qb9c.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 16,
+        "fields": {
+            "name": "Nintendo 64 JUSCO 30th Anniversary Edition Console",
+            "releaseDate": "2000-09-15",
+            "description": "Console released in Japan only.Colors of the JUSCO are slightly different than the Smoke Black and the Blue/Red Clear consoles.This console was released for the 30th Anniversary of JUSCO Stores that were shortly after closed and rebranded as AEON.JUSCO is the acronym for Japan United Stores Company.It is often considered the holy grail of N64 console collecting, although this is debatable since quite a few have shown up over the years",
+            "img": "https://i.imgur.com/oxm5Jye.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 17,
+        "fields": {
+            "name": "Nintendo 64 All Nippon Airlines (ANA) Console",
+            "releaseDate": "1998-01-10",
+            "description": "Console released in Japan only.This console was given away by All Nippon Airways (or ANA) starting April 1st 1999. For the time period of 3 months a random flight chair was chosen when flying in one of the airlines unique Pokemon branded Airplanes. The lucky winner then received the Nintendo 64 ANA with a special delivery box posted to their home",
+            "img": "https://i.imgur.com/hs4YEvI.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 18,
+        "fields": {
+            "name": "Nintendo 64 Hyundai Comboy Console",
+            "releaseDate": "1999-03-13",
+            "description": "Console released in South Korea only.Due an import ban from Japan, the N64 was distributed by Hyundai in South Korea.Later in the 90's the consoles in Korea where replaced by the Japanese Charcoal Grey console because the import ban was lifted",
+            "img": "https://i.imgur.com/1UJAwjy.jpg",
+            "condition": 1
+        }
+    },
+    {
+        "model": "retroapi.console",
+        "pk": 19,
+        "fields": {
+            "name": "Nintendo 64 IQue Console",
+            "releaseDate": "2003-03-13",
+            "description": "Console released in China only.This one is a bit of an oddball. Yes it is actually a N64! But to be honest we don't think it fits well here but we have to include it in a list of official N64 Consoles by Nintendo.In 2003 Nintendo officially launched the N64 in China and chose to use a different design. Considering the console was already released in 1996 likely not a bad idea. Although it seems to have flopped. They are pretty rare to come by and were released in 3 different package variations",
+            "img": "https://i.imgur.com/wZzWLMH.jpg",
+            "condition": 1
+        }
+    }
+]

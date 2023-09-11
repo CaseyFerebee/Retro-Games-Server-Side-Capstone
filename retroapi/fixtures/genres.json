@@ -1,0 +1,79 @@
+[
+    {
+        "model": "retroapi.genre",
+        "pk": 1,
+        "fields": {
+            "label": "Action"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 2,
+        "fields": {
+            "label": "Adventure"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 3,
+        "fields": {
+            "label": "Racing"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 4,
+        "fields": {
+            "label": "Fighting"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 5,
+        "fields": {
+            "label": "Sports"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 6,
+        "fields": {
+            "label": "Shooter"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 7,
+        "fields": {
+            "label": "Role-Playing Game (RPG)"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 8,
+        "fields": {
+            "label": "Puzzle"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 9,
+        "fields": {
+            "label": "Simulation"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 10,
+        "fields": {
+            "label": "Party"
+        }
+    },
+    {
+        "model": "retroapi.genre",
+        "pk": 11,
+        "fields": {
+            "label": "Music/Rhythm"
+        }
+    }
+]
