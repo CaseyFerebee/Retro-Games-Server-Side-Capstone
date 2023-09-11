@@ -4,6 +4,10 @@
         "titleBar.activeBackground": "#27480A",
         "titleBar.activeForeground": "#F6FDF0"
     },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=rare.settings",
+    ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
