@@ -1,0 +1,587 @@
+[
+    {
+        "model": "retroapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Super Mario 64",
+            "description": "Super Mario 64 is a classic 3D platformer where you embark on an adventure to rescue Princess Peach from Bowser's clutches.",
+            "releaseDate": "1996-09-26",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/NX3zJHj.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "The Legend of Zelda: Ocarina of Time",
+            "description": "The Legend of Zelda: Ocarina of Time is an epic action-adventure game where you play as Link to stop Ganondorf and save Hyrule.",
+            "releaseDate": "1998-11-23",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/hKnZbV2.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "GoldenEye 007",
+            "description": "GoldenEye 007 is a first-person shooter based on the James Bond film, featuring thrilling multiplayer action.",
+            "releaseDate": "1997-08-25",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/SO7dcVG.jpg",
+            "condition": 1,
+            "genre": 6
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "Mario Kart 64",
+            "description": "Race as your favorite Mario characters in Mario Kart 64, featuring exciting multiplayer races and fun power-ups.",
+            "releaseDate": "1997-02-10",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/ArJOe8I.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 5,
+        "fields": {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "description": "The Legend of Zelda: Majora's Mask is a dark and mysterious adventure where Link must save the world from impending doom.",
+            "releaseDate": "2000-10-26",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/GUj46TX.jpg",
+            "condition": 1,
+            "genre": 2 
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 6,
+        "fields": {
+            "title": "Donkey Kong 64",
+            "description": "Join Donkey Kong and his friends in this 3D adventure to stop the evil King K. Rool and collect Golden Bananas.",
+            "releaseDate": "1999-11-22",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/9ERTnSO.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 7,
+        "fields": {
+            "title": "Banjo-Kazooie",
+            "description": "Embark on a whimsical adventure with Banjo the bear and Kazooie the bird to rescue Banjo's sister Tooty from the evil witch Gruntilda.",
+            "releaseDate": "1998-06-29",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/1cydPRv.png",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 8,
+        "fields": {
+            "title": "Perfect Dark",
+            "description": "Perfect Dark is a sci-fi first-person shooter with a gripping single-player campaign and intense multiplayer action.",
+            "releaseDate": "2000-05-22",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/JFaAqLS.jpg",
+            "condition": 1,
+            "genre": 6
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 9,
+        "fields": {
+            "title": "Star Fox 64",
+            "description": "Join the Star Fox team and engage in thrilling aerial combat against the forces of Andross.",
+            "releaseDate": "1997-06-30",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/4nx72PC.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 10,
+        "fields": {
+            "title": "Pokémon Stadium",
+            "description": "Battle your Pokémon in 3D arenas and compete in challenging tournaments in Pokémon Stadium.",
+            "releaseDate": "2000-02-22",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Multiplayer",
+            "img": "https://i.imgur.com/zzwvhoc.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 11,
+        "fields": {
+            "title": "Super Smash Bros.",
+            "description": "Super Smash Bros. is a crossover fighting game featuring iconic Nintendo characters in intense battles.",
+            "releaseDate": "1999-04-26",
+            "publisher": "Nintendo",
+            "developer": "HAL Laboratory",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/Fp5OD32.jpg",
+            "condition": 1,
+            "genre": 4
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 12,
+        "fields": {
+            "title": "Mario Party",
+            "description": "Join Mario and friends in a fun-filled board game adventure with minigames in Mario Party.",
+            "releaseDate": "1998-02-08",
+            "publisher": "Nintendo",
+            "developer": "Hudson Soft",
+            "modes": "Multiplayer",
+            "img": "https://i.imgur.com/8Uprl7Z.jpg",
+            "condition": 1,
+            "genre": 10
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 13,
+        "fields": {
+            "title": "Paper Mario",
+            "description": "Paper Mario is an RPG adventure where Mario embarks on a quest to rescue Princess Peach from the evil Bowser.",
+            "releaseDate": "2000-02-05",
+            "publisher": "Nintendo",
+            "developer": "Intelligent Systems",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/qMvhp9c.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 14,
+        "fields": {
+            "title": "Diddy Kong Racing",
+            "description": "Race as Diddy Kong and friends in a kart racing adventure to defeat the evil Wizpig in Diddy Kong Racing.",
+            "releaseDate": "1997-11-24",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/wVC3Ghy.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 15,
+        "fields": {
+            "title": "Turok: Dinosaur Hunter",
+            "description": "Take on the role of Turok and battle hordes of dinosaurs and enemies in this first-person shooter.",
+            "releaseDate": "1997-02-23",
+            "publisher": "Acclaim Entertainment",
+            "developer": "Iguana Entertainment",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/yDPkIjo.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 16,
+        "fields": {
+            "title": "Star Wars: Shadows of the Empire",
+            "description": "Join Dash Rendar in the Star Wars universe and battle against the Empire in this action-packed game.",
+            "releaseDate": "1996-12-03",
+            "publisher": "LucasArts",
+            "developer": "LucasArts",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/GrXEOVX.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 17,
+        "fields": {
+            "title": "F-Zero X",
+            "description": "Experience high-speed racing action in F-Zero X, where futuristic vehicles compete in intense races.",
+            "releaseDate": "1998-10-26",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/AP7v08I.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 18,
+        "fields": {
+            "title": "Conker's Bad Fur Day",
+            "description": "Conker's Bad Fur Day is a hilarious and irreverent platformer filled with adult humor and crazy scenarios.",
+            "releaseDate": "2001-03-05",
+            "publisher": "Rare",
+            "developer": "Rare",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/Moy2TS2.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 19,
+        "fields": {
+            "title": "Resident Evil 2",
+            "description": "Experience survival horror in Resident Evil 2, where you must survive a zombie outbreak in Raccoon City.",
+            "releaseDate": "1999-11-30",
+            "publisher": "Capcom",
+            "developer": "Capcom",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/lFMoN7m.jpg",
+            "condition": 1,
+            "genre": 6
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 20,
+        "fields": {
+            "title": "Bomberman 64",
+            "description": "Engage in explosive battles as Bomberman in this multiplayer-focused game featuring strategic bombing action.",
+            "releaseDate": "1997-12-20",
+            "publisher": "Hudson Soft",
+            "developer": "Hudson Soft",
+            "modes": "Multiplayer",
+            "img": "https://i.imgur.com/lpfr2IC.jpg",
+            "condition": 1,
+            "genre": 8
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 21,
+        "fields": {
+            "title": "Banjo-Tooie",
+            "description": "Join Banjo and Kazooie in this sequel to Banjo-Kazooie, where they must stop the evil witch Gruntilda once again.",
+            "releaseDate": "2000-11-20",
+            "publisher": "Nintendo",
+            "developer": "Rare",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/7wXOCp3.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 22,
+        "fields": {
+            "title": "Wave Race 64",
+            "description": "Wave Race 64 is an exciting jet ski racing game with stunning water physics and competitive gameplay.",
+            "releaseDate": "1996-11-05",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/8uSAE2B.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 23,
+        "fields": {
+            "title": "Star Wars Episode I: Racer",
+            "description": "Take the controls of podracers and compete in high-speed races in the Star Wars universe.",
+            "releaseDate": "1999-05-18",
+            "publisher": "LucasArts",
+            "developer": "LucasArts",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/BqZTPRS.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 24,
+        "fields": {
+            "title": "Mortal Kombat 4",
+            "description": "Engage in brutal battles with your favorite fighters in Mortal Kombat 4, featuring fatalities and special moves.",
+            "releaseDate": "1998-10-31",
+            "publisher": "Midway Games",
+            "developer": "Eurocom",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/XwomAWv.jpg",
+            "condition": 1,
+            "genre": 4
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 25,
+        "fields": {
+            "title": "WWF No Mercy",
+            "description": "Step into the wrestling ring with your favorite WWF superstars in this thrilling wrestling game.",
+            "releaseDate": "2000-11-17",
+            "publisher": "THQ",
+            "developer": "AKI Corporation",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/TgXh4tT.jpg",
+            "condition": 1,
+            "genre": 4
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 26,
+        "fields": {
+            "title": "Turok 2: Seeds of Evil",
+            "description": "Return as Turok and face new challenges in this sequel to Turok: Dinosaur Hunter, featuring more dinosaurs and weapons.",
+            "releaseDate": "1998-12-10",
+            "publisher": "Acclaim Entertainment",
+            "developer": "Iguana Entertainment",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/UN0DEQx.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 27,
+        "fields": {
+            "title": "Tony Hawk's Pro Skater",
+            "description": "Skate as legendary pro skaters and perform tricks in this classic skateboarding game.",
+            "releaseDate": "1999-02-22",
+            "publisher": "Activision",
+            "developer": "Neversoft",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/ZfQ4Vrg.jpg",
+            "condition": 1,
+            "genre": 5
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 28,
+        "fields": {
+            "title": "Yoshi's Story",
+            "description": "Embark on a colorful and whimsical adventure with Yoshi and Baby Mario in Yoshi's Story.",
+            "releaseDate": "1997-12-21",
+            "publisher": "Nintendo",
+            "developer": "Nintendo EAD",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/Jfw296J.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 29,
+        "fields": {
+            "title": "Castlevania",
+            "description": "Battle the forces of darkness as Simon Belmont in this action-adventure game inspired by the classic series.",
+            "releaseDate": "1999-01-26",
+            "publisher": "Konami",
+            "developer": "Konami",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/19yX84v.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 30,
+        "fields": {
+            "title": "Mystical Ninja Starring Goemon",
+            "description": "Join Goemon and his friends in this quirky action-adventure game filled with humor and epic battles.",
+            "releaseDate": "1998-08-06",
+            "publisher": "Konami",
+            "developer": "Konami",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/w1GJ7Z1.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 31,
+        "fields": {
+            "title": "Duke Nukem 64",
+            "description": "Play as Duke Nukem and blast your way through hordes of alien invaders in this first-person shooter.",
+            "releaseDate": "1997-11-19",
+            "publisher": "GT Interactive",
+            "developer": "Eurocom",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/5rdwaLj.png",
+            "condition": 1,
+            "genre": 6
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 32,
+        "fields": {
+            "title": "Rayman 2: The Great Escape",
+            "description": "Join Rayman in his epic quest to save the world from the evil pirate Razorbeard in this platformer.",
+            "releaseDate": "1999-11-30",
+            "publisher": "Ubisoft",
+            "developer": "Ubisoft",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/NNHscU1.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 33,
+        "fields": {
+            "title": "Tony Hawk's Pro Skater 2",
+            "description": "Continue your skateboarding adventure with Tony Hawk in this sequel featuring new tricks and levels.",
+            "releaseDate": "2001-08-21",
+            "publisher": "Activision",
+            "developer": "Neversoft",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/4EhTac7.jpg",
+            "condition": 1,
+            "genre": 5
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 34,
+        "fields": {
+            "title": "Mischief Makers",
+            "description": "Guide Marina Liteyears through a world of puzzles and action in this unique 2D side-scrolling adventure.",
+            "releaseDate": "1997-06-27",
+            "publisher": "Nintendo",
+            "developer": "Treasure",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/fXHgHve.jpg",
+            "condition": 1,
+            "genre": 8
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 35,
+        "fields": {
+            "title": "Super Bowling",
+            "description": "Bowling on Nintendo 64",
+            "releaseDate": "2000-02-11",
+            "publisher": "Athena, Technōs Japan",
+            "developer": "Athena, KID",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/aHpqT4v.jpg",
+            "condition": 1,
+            "genre": 2
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 36,
+        "fields": {
+            "title": "Pokemon Stadium 2",
+            "description": "Battle your Pokemon in 3D arenas and compete in challenging tournaments in Pokemon Stadium.",
+            "releaseDate": "2000-02-21",
+            "publisher": "Nintendo",
+            "developer": "HAL Laboratory",
+            "modes": "Multiplayer",
+            "img": "https://i.imgur.com/MRXLptC.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 37,
+        "fields": {
+            "title": "Excite Bike 64",
+            "description": "MotoCross Racing Game",
+            "releaseDate": "2000-05-22",
+            "publisher": "Nintendo",
+            "developer": "Left Field Productions",
+            "modes": "Single-player, Multiplayer",
+            "img": "https://i.imgur.com/h21XSMr.jpg",
+            "condition": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 38,
+        "fields": {
+            "title": "Mega Man 64",
+            "description": "Join Mega Man Volnutt in a 3D adventure to explore dungeons and defeat Reaverbots in this action game.",
+            "releaseDate": "2001-01-10",
+            "publisher": "Capcom",
+            "developer": "Capcom",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/MeC5Tna.jpg",
+            "condition": 1,
+            "genre": 1
+        }
+    },
+    {
+        "model": "retroapi.game",
+        "pk": 39,
+        "fields": {
+            "title": "Doom 64",
+            "description": "Experience the terrifying world of Doom in this atmospheric first-person shooter created specifically for the N64.",
+            "releaseDate": "1997-03-31",
+            "publisher": "Midway Games",
+            "developer": "id Software",
+            "modes": "Single-player",
+            "img": "https://i.imgur.com/TbRbtTQ.jpg",
+            "condition": 1,
+            "genre": 6
+        }
+    }
+]
