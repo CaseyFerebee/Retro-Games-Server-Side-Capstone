@@ -20,28 +20,40 @@ class GameView(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
-        print(request.data)
         owner = Owner.objects.get(user=request.auth.user)
         condition = Condition.objects.get(pk=request.data["condition"])
         genre = Genre.objects.get(pk=request.data["genre"])
 
-
         game = Game.objects.create(
-            owner = owner,
-            description = request.data["description "],
-            releaseDate = request.data["releaseDate "],
-            publisher  = request.data["publisher "],
-            developer = request.data["developer "],
-            modes = request.data["modes "],
-            img  = request.data["img  "],
+            title= request.data["title"],
+            description = request.data["description"],
+            releaseDate = request.data["releaseDate"],
+            publisher  = request.data["publisher"],
+            developer = request.data["developer"],
+            modes = request.data["modes"],
+            img  = request.data["img"],
             condition=condition,
             genre=genre
         )
         
-        serializer = GameSerializer(post)
+        serializer = GameSerializer(game)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
+    def update(self, request, pk):
+        game = Game.objects.get(pk=pk)
+        game.owner = Owner.objects.get(pk=request.data["owner"])
+        game.title = request.data["title"],
+        game.description = request.data["description"],
+        game.releaseDate = request.data["releaseDate"],
+        game.publisher  = request.data["publisher"],
+        game.developer = request.data["developer"],
+        game.modes = request.data["modes"],
+        game.img  = request.data["img"],
+        game.condition = Condition.objects.get(pk=request.data["condition"])
+        game.genre = Genre.objects.get(pk=request.data["genre"])
+
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
     def destroy(self, request, pk):
         game = Game.objects.get(pk=pk)
@@ -53,14 +65,14 @@ class GenreGameSerializer(serializers.ModelSerializer):
         model = Genre
         fields = ('id' ,'label')
 
-class ConditionGameSerializier(serializers.ModelSerializer):
+class ConditionGameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Condition
         fields = ('id', 'label')
 
 class GameSerializer(serializers.ModelSerializer):
     genre = GenreGameSerializer(many=False)
-    condition = ConditionGameSerializier(many=False)
+    condition = ConditionGameSerializer(many=False)
     class Meta:
             model = Game
             fields = ('id','title','description', 'releaseDate', 'publisher', 'developer', 'modes', 'img', 'condition', 'genre')
