@@ -4,3 +4,6 @@ from .controller import Controller
 from .game import Game
 from .genre import Genre
 from .owner import Owner
+from .console_collection import ConsoleCollection
+from .controller_collection import ControllerCollection
+from .game_collection import GameCollection

@@ -5,6 +5,7 @@ from rest_framework import serializers, status
 from retroapi.models import Game, Genre, Condition, Owner
 
 
+
 class GameView(ViewSet):
     
     def retrieve(self, request, pk):
@@ -19,26 +20,6 @@ class GameView(ViewSet):
         serializer = GameSerializer(game, many=True)
         return Response(serializer.data)
 
-    def create(self, request):
-        owner = Owner.objects.get(user=request.auth.user)
-        condition = Condition.objects.get(pk=request.data["condition"])
-        genre = Genre.objects.get(pk=request.data["genre"])
-
-        game = Game.objects.create(
-            title= request.data["title"],
-            description = request.data["description"],
-            releaseDate = request.data["releaseDate"],
-            publisher  = request.data["publisher"],
-            developer = request.data["developer"],
-            modes = request.data["modes"],
-            img  = request.data["img"],
-            condition=condition,
-            genre=genre
-        )
-        
-        serializer = GameSerializer(game)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
-
 
     def update(self, request, pk):
         game = Game.objects.get(pk=pk)
@@ -52,6 +33,8 @@ class GameView(ViewSet):
         game.img  = request.data["img"],
         game.condition = Condition.objects.get(pk=request.data["condition"])
         game.genre = Genre.objects.get(pk=request.data["genre"])
+        
+        game.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
