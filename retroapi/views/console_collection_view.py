@@ -50,13 +50,12 @@ class ConsoleCollectionView(ViewSet):
 class OwnerConsoleCollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Owner
-        fields = ('full_name' ,)
+        fields = ('id', 'full_name')
 
 class ConsoleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Console
         fields = ('id', 'name', 'releaseDate', 'description', 'img')
-
 
 class ConditionConsoleCollectionSerializer(serializers.ModelSerializer):
     class Meta:
@@ -65,8 +64,8 @@ class ConditionConsoleCollectionSerializer(serializers.ModelSerializer):
 
 class ConsoleCollectionSerializer(serializers.ModelSerializer):
     owner = OwnerConsoleCollectionSerializer(many=False)
-    condition = ConditionConsoleCollectionSerializer(many=False)
     console = ConsoleSerializer(many=False)
+    condition = ConditionConsoleCollectionSerializer(many=False)
     class Meta:
         model = ConsoleCollection
         fields = ('id', 'owner', 'console', 'condition')

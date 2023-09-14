@@ -50,13 +50,12 @@ class ControllerCollectionView(ViewSet):
 class OwnerControllerCollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Owner
-        fields = ('full_name' ,)
+        fields = ('id', 'full_name')
 
 class ControllerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Controller
         fields = ('id', 'name', 'releaseDate', 'description', 'img')
-
 
 class ConditionControllerCollectionSerializer(serializers.ModelSerializer):
     class Meta:
@@ -65,8 +64,8 @@ class ConditionControllerCollectionSerializer(serializers.ModelSerializer):
 
 class ControllerCollectionSerializer(serializers.ModelSerializer):
     owner = OwnerControllerCollectionSerializer(many=False)
-    condition = ConditionControllerCollectionSerializer(many=False)
     controller = ControllerSerializer(many=False)
+    condition = ConditionControllerCollectionSerializer(many=False)
     class Meta:
         model = ControllerCollection
         fields = ('id', 'owner', 'controller', 'condition')

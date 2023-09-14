@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from retroapi.views import register_user, login_user, GameView, OwnerView, ConsoleView, GenreView, ControllerView, ConsoleCollectionView, ControllerCollectionView
+from retroapi.views import register_user, login_user, GameView, OwnerView, ConsoleView, GenreView, ControllerView, ConsoleCollectionView, ControllerCollectionView, GameCollectionView
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -13,7 +13,7 @@ router.register(r'genres', GenreView, 'genre')
 router.register(r'controllers', ControllerView, 'controller')
 router.register(r'consolecollections', ConsoleCollectionView, 'consolecollection')
 router.register(r'controllercollections', ControllerCollectionView, 'controllercollection')
-
+router.register(r'gamecollections', GameCollectionView, 'gamecollection')
 
 urlpatterns = [
     path('register', register_user),

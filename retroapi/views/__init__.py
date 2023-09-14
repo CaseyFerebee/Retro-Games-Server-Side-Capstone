@@ -6,3 +6,4 @@ from .genre_view import GenreView
 from .controller_view import ControllerView
 from .console_collection_view import ConsoleCollectionView
 from .controller_collection_view import ControllerCollectionView
+from .game_collection_view import GameCollectionView
