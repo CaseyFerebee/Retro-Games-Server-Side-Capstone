@@ -1,0 +1,11 @@
+[
+    {
+        "model": "retroapi.gamecollection",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "game": 1,
+            "condition": 1
+        }
+    }
+]

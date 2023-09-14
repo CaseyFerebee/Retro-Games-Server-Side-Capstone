@@ -8,5 +8,4 @@ class Game(models.Model):
     developer = models.CharField(max_length=255)
     modes = models.CharField(max_length=255)
     img = models.URLField(blank=True, null=True) 
-    genre = models.ForeignKey('Genre', on_delete=models.CASCADE)
-    condition = models.ForeignKey('Condition', on_delete=models.CASCADE, related_name='game_condition')
+    genre = models.ForeignKey('Genre', on_delete=models.CASCADE, related_name='game_genre')
