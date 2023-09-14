@@ -5,3 +5,4 @@ from .console_view import ConsoleView
 from .genre_view import GenreView
 from .controller_view import ControllerView
 from .console_collection_view import ConsoleCollectionView
+from .controller_collection_view import ControllerCollectionView
