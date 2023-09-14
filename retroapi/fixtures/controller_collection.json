@@ -1,0 +1,11 @@
+[
+    {
+        "model": "retroapi.controllercollection",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "controller": 1,
+            "condition": 1
+        }
+    }
+]

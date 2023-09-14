@@ -1,0 +1,11 @@
+[
+    {
+        "model": "retroapi.consolecollection",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "console": 1,
+            "condition": 1
+        }
+    }
+]
