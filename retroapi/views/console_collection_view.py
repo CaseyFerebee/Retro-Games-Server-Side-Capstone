@@ -14,6 +14,13 @@ class ConsoleCollectionView(ViewSet):
         return Response(serializer.data)
 
 
+    def list(self, request):
+
+        console_collections = ConsoleCollection.objects.all()
+        serializer = ConsoleCollectionSerializer(console_collections, many=True)
+        return Response(serializer.data)
+
+
 
 class OwnerCollectionSerializer(serializers.ModelSerializer):
     class Meta:
