@@ -41,8 +41,13 @@ class ConsoleCollectionView(ViewSet):
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+    def destroy(self, request, pk):
+        console_collection = ConsoleCollection.objects.get(pk=pk)
+        console_collection.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-class OwnerCollectionSerializer(serializers.ModelSerializer):
+
+class OwnerConsoleCollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Owner
         fields = ('full_name' ,)
@@ -59,7 +64,7 @@ class ConditionConsoleCollectionSerializer(serializers.ModelSerializer):
         fields = ('id', 'label')
 
 class ConsoleCollectionSerializer(serializers.ModelSerializer):
-    owner = OwnerCollectionSerializer(many=False)
+    owner = OwnerConsoleCollectionSerializer(many=False)
     condition = ConditionConsoleCollectionSerializer(many=False)
     console = ConsoleSerializer(many=False)
     class Meta:
