@@ -8,16 +8,16 @@ class OwnerView(ViewSet):
 
     def retrieve(self, request, pk):
         owner = Owner.objects.get(pk=pk)
-        serializer = AuthorSerializer(author)
+        serializer = OwnerSerializer(author)
         return Response(serializer.data)
 
     def list(self, request):
         
         owners = Owner.objects.all()
-        serializer = AuthorSerializer(owners, many=True)
+        serializer = OwnerSerializer(owners, many=True)
         return Response(serializer.data)
     
-class AuthorSerializer(serializers.ModelSerializer):
+class OwnerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Owner

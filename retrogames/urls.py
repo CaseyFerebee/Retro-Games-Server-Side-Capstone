@@ -2,13 +2,15 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from retroapi.views import register_user, login_user, GameView, OwnerView, ConsoleView
+from retroapi.views import register_user, login_user, GameView, OwnerView, ConsoleView, GenreView, ControllerView
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'games', GameView, 'game')
 router.register(r'owners', OwnerView, 'owner')
 router.register(r'consoles', ConsoleView, 'console')
+router.register(r'genres', GenreView, 'genre')
+router.register(r'controllers', ControllerView, 'controller')
 
 urlpatterns = [
     path('register', register_user),
