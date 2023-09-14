@@ -13,12 +13,27 @@ class ConsoleCollectionView(ViewSet):
         serializer = ConsoleCollectionSerializer(console_collection)
         return Response(serializer.data)
 
-
     def list(self, request):
 
         console_collections = ConsoleCollection.objects.all()
         serializer = ConsoleCollectionSerializer(console_collections, many=True)
         return Response(serializer.data)
+
+    def create(self, request):
+
+        owner = Owner.objects.get(user=request.auth.user)
+        console = Console.objects.get(pk=request.data["console"])
+        condition = Condition.objects.get(pk=request.data["condition"])
+
+        console_collection = ConsoleCollection.objects.create(
+            owner=owner,
+            console=console,
+            condition= condition,
+        )
+
+        serializer = ConsoleCollectionSerializer(console_collection)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
 
 
 
