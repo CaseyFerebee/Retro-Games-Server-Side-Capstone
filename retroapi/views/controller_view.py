@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from retroapi.models import Controller, Condition
+from retroapi.models import Controller
 
 
 class ControllerView(ViewSet):
@@ -15,15 +15,12 @@ class ControllerView(ViewSet):
 
     def list(self, request):
 
-        controller = Controller.objects.all()
-        serializer = ControllerSerializer(consoles, many=True)
+        controllers = Controller.objects.all()
+        serializer = ControllerSerializer(controllers, many=True)
         return Response(serializer.data)
-
-
-
 
 class ControllerSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Console
-        fields = ('id', 'name', 'releaseDate', 'description', 'img', 'condition')
+        model = Controller
+        fields = ('id', 'name', 'releaseDate', 'description', 'img')
