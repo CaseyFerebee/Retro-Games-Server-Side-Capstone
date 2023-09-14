@@ -19,9 +19,6 @@ class ControllerView(ViewSet):
         serializer = ControllerSerializer(controllers, many=True)
         return Response(serializer.data)
 
-
-
-
 class ControllerSerializer(serializers.ModelSerializer):
 
     class Meta:

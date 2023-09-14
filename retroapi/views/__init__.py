@@ -4,3 +4,4 @@ from .owner_view import OwnerView
 from .console_view import ConsoleView
 from .genre_view import GenreView
 from .controller_view import ControllerView
+from .console_collection_view import ConsoleCollectionView

@@ -20,29 +20,6 @@ class GameView(ViewSet):
         serializer = GameSerializer(games, many=True)
         return Response(serializer.data)
 
-
-    def update(self, request, pk):
-        game = Game.objects.get(pk=pk)
-        game.owner = Owner.objects.get(pk=request.data["owner"])
-        game.title = request.data["title"],
-        game.description = request.data["description"],
-        game.releaseDate = request.data["releaseDate"],
-        game.publisher  = request.data["publisher"],
-        game.developer = request.data["developer"],
-        game.modes = request.data["modes"],
-        game.img  = request.data["img"],
-        game.condition = Condition.objects.get(pk=request.data["condition"])
-        game.genre = Genre.objects.get(pk=request.data["genre"])
-        
-        game.save()
-
-        return Response(None, status=status.HTTP_204_NO_CONTENT)
-
-    def destroy(self, request, pk):
-        game = Game.objects.get(pk=pk)
-        game.delete()
-        return Response(None, status=status.HTTP_204_NO_CONTENT)
-
 class GenreGameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genre
