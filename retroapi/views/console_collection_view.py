@@ -34,7 +34,12 @@ class ConsoleCollectionView(ViewSet):
         serializer = ConsoleCollectionSerializer(console_collection)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+    def update(self, request, pk):
+        console_collection = ConsoleCollection.objects.get(pk=pk)
+        console_collection.condition = Condition.objects.get(pk=request.data["condition"])
+        console_collection.save()
 
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
 class OwnerCollectionSerializer(serializers.ModelSerializer):
