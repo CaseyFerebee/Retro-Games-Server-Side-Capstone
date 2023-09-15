@@ -15,7 +15,13 @@ class GameCollectionView(ViewSet):
 
     def list(self, request):
 
+        game_collections = []
         game_collections = GameCollection.objects.all()
+        if "current" in request.query_params:
+            owner = Owner.objects.get(user=request.auth.user.id)
+
+            game_collections = game_collections.filter(owner=owner)
+
         serializer = GameCollectionSerializer(game_collections, many=True)
         return Response(serializer.data)
 

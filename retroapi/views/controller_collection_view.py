@@ -15,7 +15,13 @@ class ControllerCollectionView(ViewSet):
 
     def list(self, request):
 
+        controller_collections = []
         controller_collections = ControllerCollection.objects.all()
+        if "current" in request.query_params:
+            owner = Owner.objects.get(user=request.auth.user.id)
+
+            controller_collections = controller_collections.filter(owner=owner)
+
         serializer = ControllerCollectionSerializer(controller_collections, many=True)
         return Response(serializer.data)
 
