@@ -15,7 +15,13 @@ class ConsoleCollectionView(ViewSet):
 
     def list(self, request):
 
+        console_collections = []
         console_collections = ConsoleCollection.objects.all()
+        if "current" in request.query_params:
+            owner = Owner.objects.get(user=request.auth.user.id)
+
+            console_collections = console_collections.filter(owner=owner)
+
         serializer = ConsoleCollectionSerializer(console_collections, many=True)
         return Response(serializer.data)
 
