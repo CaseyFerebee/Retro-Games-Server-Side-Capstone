@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from retroapi.models import GameCollection, Owner, Game, Condition
+from retroapi.models import GameCollection, Owner, Game, Condition, Genre
 
 
 class GameCollectionView(ViewSet):
@@ -10,6 +10,8 @@ class GameCollectionView(ViewSet):
     def retrieve(self, request, pk):
         
         game_collection = GameCollection.objects.get(pk=pk)
+
+        
         serializer = GameCollectionSerializer(game_collection)
         return Response(serializer.data)
 
@@ -19,14 +21,17 @@ class GameCollectionView(ViewSet):
         game_collections = GameCollection.objects.all()
         if "current" in request.query_params:
             owner = Owner.objects.get(user=request.auth.user.id)
-
             game_collections = game_collections.filter(owner=owner)
+            
+        game_id = request.query_params.get('game_id')
+        if game_id:
+            game_collections = game_collections.filter(game_id=game_id)
 
         serializer = GameCollectionSerializer(game_collections, many=True)
         return Response(serializer.data)
 
     def create(self, request):
-
+        print(request.data)
         owner = Owner.objects.get(user=request.auth.user)
         game = Game.objects.get(pk=request.data["game"])
         condition = Condition.objects.get(pk=request.data["condition"])
