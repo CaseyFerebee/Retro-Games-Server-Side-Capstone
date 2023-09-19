@@ -22,10 +22,7 @@ class GameCollectionView(ViewSet):
         if "current" in request.query_params:
             owner = Owner.objects.get(user=request.auth.user.id)
             game_collections = game_collections.filter(owner=owner)
-            
-        game_id = request.query_params.get('game_id')
-        if game_id:
-            game_collections = game_collections.filter(game_id=game_id)
+        
 
         serializer = GameCollectionSerializer(game_collections, many=True)
         return Response(serializer.data)
