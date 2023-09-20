@@ -8,7 +8,7 @@ class OwnerView(ViewSet):
 
     def retrieve(self, request, pk):
         owner = Owner.objects.get(pk=pk)
-        serializer = OwnerSerializer(author)
+        serializer = OwnerSerializer(owner)
         return Response(serializer.data)
 
     def list(self, request):
