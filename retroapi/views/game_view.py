@@ -16,7 +16,7 @@ class GameView(ViewSet):
 
     def list(self, request):
 
-        games = Game.objects.all()
+        games = Game.objects.all().order_by('title')
         serializer = GameSerializer(games, many=True)
         return Response(serializer.data)
 
